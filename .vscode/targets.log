@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Dec 09 22:19:37 2021
+# Make data base, printed on Thu Dec 09 22:39:48 2021
 
 # Variables
 
@@ -29,8 +29,7 @@ VSCODE_LOG_NATIVE = false
 # makefile (from 'Makefile', line 48)
 INCLUDES := -Iinclude
 # automatic
-@D = $(patsubst %/,%,$(patsubst %\ 
-,%,$(dir $@)))
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
 HOMEDRIVE = C:
 # automatic
@@ -68,7 +67,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-db3cd3f2-6003-43ca-9e33-60e47be128b5-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-45ff8537-ad20-41ad-945d-734063d96d69-sock
 # environment
 VSCODE_CWD = C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code
 # default
@@ -249,7 +248,7 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-F5OF9SN8
 # Directories
 
 # . (key c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Banking System, mtime 1639063234): 11 files, no impossibilities.
-# src (key c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Banking System/src, mtime 1638726365): 10 files, no impossibilities.
+# src (key c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Banking System/src, mtime 1639068647): 10 files, no impossibilities.
 
 # 21 files, no impossibilities in 2 directories.
 
@@ -285,7 +284,7 @@ all: output main.exe
 # Not a target:
 src/main.o:
 #  Implicit rule search has been done.
-#  Last modified 2021-12-05 23:16:04
+#  Last modified 2021-12-09 22:20:47
 #  File has been updated.
 #  Successfully updated.
 
@@ -369,7 +368,7 @@ src/Bank.o:
 
 output:
 #  Implicit rule search has not been done.
-#  Last modified 2021-12-09 11:50:31
+#  Last modified 2021-12-09 22:23:07
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 71):
@@ -389,6 +388,6 @@ output:
 # strcache performance: lookups = 50 / hit rate = 40%
 # hash-table stats:
 # Load=30/8192=0%, Rehash=0, Collisions=2/50=4%
-# Finished Make data base on Thu Dec 09 22:19:37 2021
+# Finished Make data base on Thu Dec 09 22:39:48 2021
 
  
