@@ -1,0 +1,10 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Banking System'
+mkdir output
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/main.cpp  -o src/main.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/Account.cpp  -o src/Account.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -c src/Bank.cpp  -o src/Bank.o
+g++ -std=c++17 -Wall -Wextra -g -Iinclude -o output\main.exe src/main.o src/Account.o src/Bank.o  -Llib
+echo Executing 'all' complete!
+make.exe: Leaving directory 'c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Banking System'
+ 
