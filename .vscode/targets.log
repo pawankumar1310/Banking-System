@@ -6,7 +6,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Dec 09 10:02:14 2021
+# Make data base, printed on Thu Dec 09 22:19:37 2021
 
 # Variables
 
@@ -29,7 +29,8 @@ VSCODE_LOG_NATIVE = false
 # makefile (from 'Makefile', line 48)
 INCLUDES := -Iinclude
 # automatic
-@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+@D = $(patsubst %/,%,$(patsubst %\ 
+,%,$(dir $@)))
 # environment
 HOMEDRIVE = C:
 # automatic
@@ -55,8 +56,6 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
-# environment
 TMP = C:\Users\ASUS\AppData\Local\Temp
 # makefile (from 'Makefile', line 54)
 SOURCES := src/main.cpp src/Account.cpp src/Bank.cpp
@@ -69,7 +68,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b2f21121-8fbf-42fd-8c57-ef0b4b14ad89-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-db3cd3f2-6003-43ca-9e33-60e47be128b5-sock
 # environment
 VSCODE_CWD = C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code
 # default
@@ -101,7 +100,7 @@ LIB := lib
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7364_ZHEYVYLHOXPRXTCY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14796_QAHHWRPTEMZFEHKP
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -123,7 +122,7 @@ PUBLIC = C:\Users\Public
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\ASUS\AppData\Roaming\Code\CachedData\ccbaa2d27e38e5afa3e5c21c1c7bef4657064247
+VSCODE_CODE_CACHE_PATH = C:\Users\ASUS\AppData\Roaming\Code\CachedData\7db1a2b88f7557e0a43fec75b6ba7e50b3e9f77e
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
@@ -177,7 +176,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\91424adb9bf4556c76f3f7464c71b567-1.62.3-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\91424adb9bf4556c76f3f7464c71b567-1.63.0-main-sock
 # environment
 FLEX = C:\Program Files (x86)\CodeBlocks\MinGW\bin
 # environment
@@ -200,6 +199,8 @@ SYSTEMROOT = C:\WINDOWS
 +F = $(notdir $+)
 # environment
 APPDATA = C:\Users\ASUS\AppData\Roaming
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
 # environment
 TEMP = C:\Users\ASUS\AppData\Local\Temp
 # environment
@@ -235,13 +236,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# environment
-VSCODE_PID = 7364
+VSCODE_PID = 14796
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-F5OF9SN8
 # variable set hash-table stats:
-# Load=115/1024=11%, Rehash=0, Collisions=17/163=10%
+# Load=114/1024=11%, Rehash=0, Collisions=17/162=10%
 
 # Pattern-specific Variable Values
 
@@ -249,10 +248,10 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-F5OF9SN8
 
 # Directories
 
-# . (key c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Banking System, mtime 1638840508): 9 files, no impossibilities.
+# . (key c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Banking System, mtime 1639063234): 11 files, no impossibilities.
 # src (key c:/Users/ASUS/OneDrive/Desktop/Nickelfox/C++/Banking System/src, mtime 1638726365): 10 files, no impossibilities.
 
-# 19 files, no impossibilities in 2 directories.
+# 21 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -370,7 +369,7 @@ src/Bank.o:
 
 output:
 #  Implicit rule search has not been done.
-#  Last modified 2021-12-09 10:02:14
+#  Last modified 2021-12-09 11:50:31
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 71):
@@ -384,12 +383,12 @@ output:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 28 / storage = 213 B / avg = 7 B
-# current buf: size = 8174 B / used = 213 B / count = 28 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 234 B / avg = 7 B
+# current buf: size = 8174 B / used = 234 B / count = 30 / avg = 7 B
 
-# strcache performance: lookups = 48 / hit rate = 41%
+# strcache performance: lookups = 50 / hit rate = 40%
 # hash-table stats:
-# Load=28/8192=0%, Rehash=0, Collisions=2/48=4%
-# Finished Make data base on Thu Dec 09 10:02:14 2021
+# Load=30/8192=0%, Rehash=0, Collisions=2/50=4%
+# Finished Make data base on Thu Dec 09 22:19:37 2021
 
  

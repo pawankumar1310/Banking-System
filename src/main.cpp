@@ -21,8 +21,8 @@ int main()
         cout << "\n\tSelect one option below : "<<endl;
         cout << "\n\t1. Open an Account";
         cout << "\n\t2. Balance Enquiry";
-        cout << "\n\t3. Deposit";
-        cout << "\n\t4. Withdrawal";
+        cout << "\n\t3. Deposit Amount";
+        cout << "\n\t4. Withdraw Amount";
         cout << "\n\t5. Close an Account";
         cout << "\n\t6. Show All Accounts";
         cout << "\n\t7. Quit";
